@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 semanticcms-openfile-bom - Bill of Materials (BOM) for SemanticCMS OpenFile features.
-Copyright (C) 2019  AO Industries, Inc.
+Copyright (C) 2019, 2020  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -36,7 +36,7 @@ along with semanticcms-openfile-bom.  If not, see <http://www.gnu.org/licenses /
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2019-06-11T02:00:41-0500"
-		dateModified="2019-10-11T23:24:42-0500"
+		dateModified="2020-02-13T14:49:32-0600"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-openfile-bom:pom.version}" />
@@ -51,7 +51,12 @@ along with semanticcms-openfile-bom.  If not, see <http://www.gnu.org/licenses /
 				groupId="@{documented.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{documented.scm.url}"
-			/>
+			>
+				<ul>
+					<li>Updated version of <core:link book="/openfile/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/openfile/servlet" page="/index.jspx" />.</li>
+				</ul>
+			</changelog:release>
 		</c:if>
 
 		<changelog:release
