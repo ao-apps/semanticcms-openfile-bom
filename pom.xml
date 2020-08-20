@@ -29,7 +29,7 @@ along with semanticcms-openfile-bom.  If not, see <http://www.gnu.org/licenses /
 		<relativePath>../../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-bom</artifactId><version>1.5.0-POST-SNAPSHOT</version>
+	<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-bom</artifactId><version>1.5.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>SemanticCMS OpenFile BOM</name>
@@ -52,14 +52,14 @@ along with semanticcms-openfile-bom.  If not, see <http://www.gnu.org/licenses /
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-all</artifactId><version>1.5.0${POST-SNAPSHOT}</version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-all</artifactId><version>1.5.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 			</dependency>
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId><version>1.9.0${POST-SNAPSHOT}</version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId><version>1.9.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId><version>1.9.0${POST-SNAPSHOT}</version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId><version>1.9.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
