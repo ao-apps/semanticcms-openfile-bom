@@ -73,7 +73,7 @@ along with semanticcms-openfile-bom.  If not, see <http://www.gnu.org/licenses /
 			</dependency>
 			<!-- Reported by versions:display-dependency-updates -->
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-lang</artifactId><version>4.8.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-lang</artifactId><version>4.8.0${POST-SNAPSHOT}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
