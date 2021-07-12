@@ -32,6 +32,13 @@ along with semanticcms-openfile-bom.  If not, see <http://www.gnu.org/licenses /
 	<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-bom</artifactId><version>1.6.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
+	<properties>
+		<!-- SonarCloud.io -->
+		<sonar.projectKey>${project.groupId}:${project.artifactId}</sonar.projectKey>
+		<sonar.organization>aoindustries</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	</properties>
+
 	<name>SemanticCMS OpenFile BOM</name>
 	<url>https://semanticcms.com/openfile/bom/</url>
 	<description>Bill of Materials (BOM) for SemanticCMS OpenFile features.</description>
