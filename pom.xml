@@ -166,6 +166,18 @@ along with semanticcms-openfile-bom.  If not, see <https://www.gnu.org/licenses/
       <dependency>
         <groupId>com.aoapps</groupId><artifactId>ao-encoding</artifactId><version>7.0.0${POST-SNAPSHOT}</version>
       </dependency>
+      <dependency>
+        <groupId>com.aoapps</groupId><artifactId>ao-encoding-servlet</artifactId><version>4.2.0${POST-SNAPSHOT}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.aoapps</groupId><artifactId>ao-encoding-taglib</artifactId><version>4.0.0${POST-SNAPSHOT}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.aoapps</groupId><artifactId>ao-io-buffer</artifactId><version>4.1.0${POST-SNAPSHOT}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.aoapps</groupId><artifactId>ao-taglib</artifactId><version>7.2.0${POST-SNAPSHOT}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 </project>
