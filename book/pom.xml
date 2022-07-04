@@ -36,15 +36,15 @@ along with semanticcms-openfile-bom.  If not, see <https://www.gnu.org/licenses/
     <module.name>com.semanticcms.openfile.bom.book</module.name>
     <!-- These values are copied from the project being documented -->
     <documented.artifactId>semanticcms-openfile-bom</documented.artifactId>
-    <documented.name>SemanticCMS OpenFile BOM²</documented.name>
+    <documented.name>SemanticCMS OpenFile BOM</documented.name>
     <documented.description>Bill of Materials (BOM) for SemanticCMS OpenFile features.</documented.description>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>
 
-  <name>SemanticCMS OpenFile BOM² Book</name>
+  <name>SemanticCMS OpenFile BOM Book</name>
   <url>https://semanticcms.com/openfile/bom/</url>
-  <description>Documentation for SemanticCMS OpenFile BOM² in SemanticCMS format.</description>
+  <description>Documentation for SemanticCMS OpenFile BOM in SemanticCMS format.</description>
   <inceptionYear>2019</inceptionYear>
 
   <licenses>
