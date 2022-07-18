@@ -169,6 +169,9 @@ along with semanticcms-openfile-bom.  If not, see <https://www.gnu.org/licenses/
         <groupId>com.aoapps</groupId><artifactId>ao-taglib</artifactId><version>7.2.1${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
+        <groupId>com.aoapps</groupId><artifactId>ao-tempfiles</artifactId><version>3.0.2${POST-SNAPSHOT}</version>
+      </dependency>
+      <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-servlet</artifactId><version>1.18.3${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
