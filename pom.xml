@@ -178,7 +178,7 @@ along with semanticcms-openfile-bom.  If not, see <https://www.gnu.org/licenses/
         <groupId>joda-time</groupId><artifactId>joda-time</artifactId><version>2.12.5</version>
       </dependency>
       <dependency>
-        <groupId>org.webjars.npm</groupId><artifactId>jquery</artifactId><version>3.6.4</version>
+        <groupId>org.webjars.npm</groupId><artifactId>jquery</artifactId><version>3.7.0</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
