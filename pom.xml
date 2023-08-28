@@ -32,9 +32,6 @@ along with semanticcms-openfile-bom.  If not, see <https://www.gnu.org/licenses/
   <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-bom</artifactId><version>1.6.1-POST-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <properties>
-  </properties>
-
   <name>SemanticCMS OpenFile BOM</name>
   <url>https://semanticcms.com/openfile/bom/</url>
   <description>Bill of Materials (BOM) for SemanticCMS OpenFile features.</description>
