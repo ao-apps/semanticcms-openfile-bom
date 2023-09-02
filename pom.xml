@@ -177,7 +177,7 @@ along with semanticcms-openfile-bom.  If not, see <https://www.gnu.org/licenses/
         <groupId>org.apache.commons</groupId><artifactId>commons-lang3</artifactId><version>3.13.0</version>
       </dependency>
       <dependency>
-        <groupId>org.webjars.npm</groupId><artifactId>jquery</artifactId><version>3.7.0</version>
+        <groupId>org.webjars.npm</groupId><artifactId>jquery</artifactId><version>3.7.1</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
