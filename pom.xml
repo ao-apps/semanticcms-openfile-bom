@@ -32,6 +32,11 @@ along with semanticcms-openfile-bom.  If not, see <https://www.gnu.org/licenses/
   <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-bom</artifactId><version>2.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
+  <properties>
+    <!-- Must be set to ${git.commit.time} for snapshots or ISO 8601 timestamp for releases. -->
+    <project.build.outputTimestamp>${git.commit.time}</project.build.outputTimestamp>
+  </properties>
+
   <name>SemanticCMS OpenFile BOM</name>
   <url>https://semanticcms.com/openfile/bom/</url>
   <description>Bill of Materials (BOM) for SemanticCMS OpenFile features.</description>
