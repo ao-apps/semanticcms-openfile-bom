@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 semanticcms-openfile-bom - Bill of Materials (BOM) for SemanticCMS OpenFile features.
-Copyright (C) 2019, 2020, 2021, 2022  AO Industries, Inc.
+Copyright (C) 2019, 2020, 2021, 2022, 2023  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -39,7 +39,12 @@ along with semanticcms-openfile-bom.  If not, see <https://www.gnu.org/licenses/
     datePublished="2019-06-11T02:00:41-05:00"
     dateModified="2021-10-18T22:04:44-05:00"
   >
-    <c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
+    <c:set var="latestRelease" value="1.6.1" />
+    <c:if test="${
+      fn:endsWith('@{project.version}', '-SNAPSHOT')
+      and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')
+      and '@{project.version}' != (latestRelease.concat('-SNAPSHOT'))
+    }">
       <changelog:release
         projectName="@{documented.name}"
         version="@{project.version}"
