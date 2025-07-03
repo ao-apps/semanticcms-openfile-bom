@@ -19,7 +19,7 @@ Bill of Materials (BOM) for [SemanticCMS OpenFile](https://github.com/ao-apps/se
 ## Project Links
 * [Project Home](https://semanticcms.com/openfile/bom/)
 * [Changelog](https://semanticcms.com/openfile/bom/changelog)
-* [Maven Central Repository](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-openfile-bom)
+* [Central Repository](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-openfile-bom)
 * [GitHub](https://github.com/ao-apps/semanticcms-openfile-bom)
 
 ## Managed Dependencies
